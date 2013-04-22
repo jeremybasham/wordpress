@@ -1,0 +1,133 @@
+/* Article structure */
+.articles .article {
+  position: relative;
+	-moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.articles .article  * {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+article .entry-title a {
+  display: block;
+}
+/* Media */
+.articles figure {
+	margin: 0;
+	position: relative;
+}
+
+.articles figure img {
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+
+.articles figure.alignleft {
+  margin-right: 14px;
+}
+
+.articles figure.alignright {
+  margin-left: 14px;
+}
+
+.align-none {
+	float: none;
+	margin: 0;
+}
+
+.articles article figure a.post-thumbnail { overflow: hidden; }
+
+.articles article figure a.post-thumbnail,
+.articles article figure img {
+	display: block;
+  position: relative;
+}
+
+.articles article figure a > span {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.articles article figure a.post-thumbnail span.spotlight-animate {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Initial state classes: */
+.spotlight-slideFromTop {
+    left: 0px;
+    top: -100%;
+}
+.spotlight-slideFromBottom {
+    left: 0px;
+    top: 100%;
+}
+.spotlight-slideFromLeft {
+    top: 0px; 
+    left: -100%;
+}
+.spotlight-slideFromRight {
+    top: 0px;
+    left: 100%;
+}
+/* Final state classes: */
+.spotlight-slideTop {
+    top: 0px;
+}
+.spotlight-slideLeft {
+    left: 0px;
+}
+
+/* Overlay Icon */
+.articles article figure a span > span {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: 'fontello';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: 0.2em;
+  text-align: center;
+/* Uncomment for 3D effect */
+/* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+/* fix buttons height */
+  line-height: 1em;
+/* you can be more comfortable with increased icons size */
+/* font-size: 120%; */
+}
+.articles article figure a span .icon {
+	display:block;
+	position: absolute;
+	top: 50%; 
+	left: 50%;
+}
+
+.icon-right:before { content: '\2192'; } /* '→' */
+.icon-plus-squared:before { content: '\229e'; } /* '⊞' */
+.icon-plus-circled:before { content: '\2795'; } /* '➕' */
+.icon-zoom-in-2:before { content: '\e001'; } /* '' */
+.icon-right-circle:before { content: '\e4a2'; } /* '' */
+.icon-info-circled:before { content: '\e705'; } /* '' */
+.icon-eye:before { content: '\e70a'; } /* '' */
+.icon-export:before { content: '\e800'; } /* '' */
+.icon-popup:before { content: '\e74c'; } /* '' */
+.icon-zoom-in:before { content: '\e750'; } /* '' */
+.icon-zoom-in-1:before { content: '\f07e'; } /* '' */
+.icon-beaker:before { content: '\f0c3'; } /* '' */
+.icon-picture:before { content: '🌄'; } /* '\1f304' */
+.icon-newspaper:before { content: '📰'; } /* '\1f4f0' */

@@ -1,0 +1,163 @@
+/* builder block admin css
+*******************************************************/
+#row-count {
+	color: #666;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 1.5;
+	padding: 5px 10px;
+}
+
+.sub-tabs .short-code a {
+	padding-left: 24px;
+}
+
+ul.sub-tabs li#sub-tab-builder.ui-state-active > a {
+	background: #1c1c1c;
+}
+
+#sub-tab-builder-content div.input-textarea div.textarea-container {
+	position: absolute;
+	display: block!important;
+	left: 0!important;
+	top: 0!important;
+	opacity: 1;
+}
+
+#sub-tab-builder-content .sub-tab-notice a {
+	font-size: 12px;
+	text-decoration: none;
+	margin: 0 1px 0 0;
+	color: #999;
+	border-radius:5px;
+	background:#222;
+	padding:3px 5px;
+	box-shadow:1px 1px 1px rgba(0,0,0,0.2);
+	font-family:Arial!important;
+	border-radius:5px;
+}
+#sub-tab-builder-content .sub-tab-notice a.active {
+	/*border: 1px solid;
+	border-color: rgba(82, 168, 236, 0.8);*/
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.4);
+	color: #EC5F2E!important;
+}
+
+#sub-tab-builder-content div.input-textarea div.textarea-container,
+#sub-tab-builder-content div.input-textarea div.textarea-container textarea {
+	height: 80px;
+	width: 340px;
+}
+
+#sub-tab-builder-content div.input-textarea div.textarea-container {
+	background: none;
+	border: none;
+	box-shadow: none;
+}
+
+#sub-tab-builder-content div.input-textarea div.textarea-container textarea {
+	background: #555;
+	border: 1px solid #333;
+	color: #f1f1f1;
+	opacity: 0.85;
+}
+
+#sub-tab-builder-content div.input-textarea .input-left label {
+	font-size: 20px;
+	position: absolute;
+	top: 30px;
+	width: 340px;
+	text-align: center;
+	z-index: 10;
+	font-size: 29px;
+	color: #999;
+}
+
+.options-heading {
+	clear: both;
+}
+
+#builder-wrapper {
+	position: relative;
+	background: #e9e9e9;
+	height: 313px;
+	width: 350px;
+	padding: 10px;
+	border-radius: 7px;
+	border: 1px solid #000;
+	margin-left: -1px;
+	margin-bottom: 30px;
+}
+
+#builder-info {
+	position: relative;
+	left: 382px;
+	top: -365px;
+	color: white;
+	width: 240px;
+}
+
+#builder-wrapper span.pencil-icon {
+	display: none;
+}
+
+body #builder-info strong {
+	font-size: inherit;
+	font-weight: bold;
+}
+
+#builder-info p {
+	color: #ccc;
+	line-height: 1.6;
+	margin-bottom: 15px;
+}
+
+body #builder-info .intro {
+	font-size: 17px!important;
+	color: #ddd;
+	line-height: 1.4;
+}
+
+#builder-info h2 {
+	font-size: 19px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+#builder-title {
+	font-size: 17px;
+	color: #444;
+	width: 450px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
+#builder-title strong {
+	font-size: inherit;
+	font-weight: bold;
+}
+#input-builder-input-header,
+#input-builder-input-section,
+#input-builder-input-footer {
+	position: absolute;
+	position: absolute;
+	background: none;
+	color: #EEE;
+	opacity: 1;
+	border: none;
+}
+
+#input-builder-input-header {
+	top: 40px;
+}
+
+#input-builder-input-section {
+	top: 136px;
+}
+
+#input-builder-input-footer {
+	top: 232px;
+}
+
+
