@@ -384,7 +384,7 @@ class HeadwayPostListingsBlockDisplay {
 		$cats .= '<span class="categories-wrap">';
 		foreach((get_the_category($id)) as $category) {
  			$i++;
-		    $cats .= '<a href="'.get_category_link($category->term_id).'" class="post-meta categories">'.$category->cat_name.'</a>';
+		    $cats .= '<a href="'.get_category_link($category->term_id).'" class="post-meta categories '. $category->slug .'">'.$category->cat_name.'</a>';
 		    $cats .= ($i == $c) ? ' ' : ', ';
 		};
 		$cats .= '</span>';
